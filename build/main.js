@@ -524,7 +524,7 @@ var CompanyPage = (function () {
 }());
 CompanyPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-company',template:/*ion-inline-start:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/tmp/utax-template/src/pages/company/company.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>{{"Company"|translate}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    &nbsp;\n\n</ion-content>\n\n'/*ion-inline-end:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/tmp/utax-template/src/pages/company/company.html"*/
+        selector: 'page-company',template:/*ion-inline-start:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/12/utax-ionic-template/src/pages/company/company.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>{{"Company"|translate}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    &nbsp;\n\n</ion-content>\n\n'/*ion-inline-end:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/12/utax-ionic-template/src/pages/company/company.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* Http */]])
 ], CompanyPage);
@@ -586,7 +586,7 @@ var TwitterPage = (function () {
 }());
 TwitterPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-twitter',template:/*ion-inline-start:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/tmp/utax-template/src/pages/twitter/twitter.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>{{"Twitter"|translate}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    &nbsp;\n\n</ion-content>\n\n'/*ion-inline-end:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/tmp/utax-template/src/pages/twitter/twitter.html"*/
+        selector: 'page-twitter',template:/*ion-inline-start:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/12/utax-ionic-template/src/pages/twitter/twitter.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>{{"Twitter"|translate}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    &nbsp;\n\n</ion-content>\n\n'/*ion-inline-end:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/12/utax-ionic-template/src/pages/twitter/twitter.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* Http */]])
 ], TwitterPage);
@@ -647,7 +647,7 @@ var FacebookPage = (function () {
 }());
 FacebookPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-facebook',template:/*ion-inline-start:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/tmp/utax-template/src/pages/facebook/facebook.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>{{"Facebook"|translate}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    &nbsp;\n\n</ion-content>\n\n'/*ion-inline-end:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/tmp/utax-template/src/pages/facebook/facebook.html"*/
+        selector: 'page-facebook',template:/*ion-inline-start:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/12/utax-ionic-template/src/pages/facebook/facebook.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>{{"Facebook"|translate}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    &nbsp;\n\n</ion-content>\n\n'/*ion-inline-end:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/12/utax-ionic-template/src/pages/facebook/facebook.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* Http */]])
 ], FacebookPage);
@@ -1000,7 +1000,7 @@ var RequestedPage = (function () {
 }());
 RequestedPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-requested',template:/*ion-inline-start:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/tmp/utax-template/src/pages/requested/requested.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>{{"Requested"|translate}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Requested</h3>\n\n\n\n  <p>\n\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id lacus sagittis ultricies. Cras dapibus venenatis tellus, dictum hendrerit quam eleifend et. Morbi quis lorem lectus. Aliquam finibus massa posuere efficitur tincidunt. Quisque et elit vitae elit feugiat condimentum ut ac velit. Aliquam ligula dolor, iaculis ut rhoncus sit amet, molestie quis orci.\n\n  </p>\n\n</ion-content>\n\n'/*ion-inline-end:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/tmp/utax-template/src/pages/requested/requested.html"*/
+        selector: 'page-requested',template:/*ion-inline-start:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/12/utax-ionic-template/src/pages/requested/requested.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>{{"Requested"|translate}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Requested</h3>\n\n\n\n  <p>\n\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam id lacus sagittis ultricies. Cras dapibus venenatis tellus, dictum hendrerit quam eleifend et. Morbi quis lorem lectus. Aliquam finibus massa posuere efficitur tincidunt. Quisque et elit vitae elit feugiat condimentum ut ac velit. Aliquam ligula dolor, iaculis ut rhoncus sit amet, molestie quis orci.\n\n  </p>\n\n</ion-content>\n\n'/*ion-inline-end:"/var/www/vhosts/utax.montanab.com/httpdocs/public/projects/12/utax-ionic-template/src/pages/requested/requested.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
 ], RequestedPage);
