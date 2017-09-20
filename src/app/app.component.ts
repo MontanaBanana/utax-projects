@@ -22,7 +22,7 @@ import { HttpModule } from '@angular/http';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  templateUrl: 'http://utax.montanab.com/apptemplate/app/12'
+  templateUrl: 'http://utax.montanab.com/apptemplate/app/{project.id}'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;

@@ -20,7 +20,7 @@ import 'rxjs/add/operator/toPromise';
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'http://utax.montanab.com/apptemplate/home/12'
+  templateUrl: 'http://utax.montanab.com/apptemplate/home/{project.id}'
 })
 export class HomePage {
   public src;

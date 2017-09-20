@@ -10,13 +10,13 @@ import 'rxjs/add/operator/toPromise';
 
 @Component({
   selector: 'page-appointment',
-  templateUrl: 'http://utax.montanab.com/apptemplate/appointment/12'
+  templateUrl: 'http://utax.montanab.com/apptemplate/appointment/{project.id}'
 })
 export class AppointmentPage {
   public src;
 
   constructor(public navCtrl: NavController, public http: Http, public sanitizer: DomSanitizer) {
-	var projects = this.http.get('https://utax.montanab.com/account/project/appointment_url/12');
+	var projects = this.http.get('https://utax.montanab.com/account/project/appointment_url/{project.id}');
 			projects
 				.map(res => res.json())
 				.subscribe(data => {

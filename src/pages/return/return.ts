@@ -11,7 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'page-return',
-  templateUrl: 'http://utax.montanab.com/apptemplate/return/12'
+  templateUrl: 'http://utax.montanab.com/apptemplate/return/{project.id}'
 })
 export class ReturnPage {
 

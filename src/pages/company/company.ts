@@ -14,7 +14,7 @@ import 'rxjs/add/operator/toPromise';
 export class CompanyPage {
 
   constructor(public navCtrl: NavController, public http: Http) {
-	var projects = this.http.get('https://utax.montanab.com/account/project/company_url/12');
+	var projects = this.http.get('https://utax.montanab.com/account/project/company_url/{project.id}');
 			projects
 				.map(res => res.json())
 				.subscribe(data => {

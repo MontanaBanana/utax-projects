@@ -8,14 +8,14 @@ import 'rxjs/add/operator/toPromise';
 
 @Component({
   selector: 'page-contact',
-  templateUrl: 'http://utax.montanab.com/apptemplate/contact/12'
+  templateUrl: 'http://utax.montanab.com/apptemplate/contact/{project.id}'
 })
 
 export class ContactPage {
   location_items = [];
 
   constructor(public navCtrl: NavController, public http: Http) {
-		var locations = this.http.get('http://utax.montanab.com/account/project/applocations/12');
+		var locations = this.http.get('http://utax.montanab.com/account/project/applocations/{project.id}');
 		locations
 			.map(res => res.json())
 			.subscribe(data => {

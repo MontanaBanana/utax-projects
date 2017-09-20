@@ -16,7 +16,7 @@ import 'rxjs/add/operator/toPromise';
 
 @Component({
   selector: 'page-photos',
-  templateUrl: 'http://utax.montanab.com/apptemplate/photos/12'
+  templateUrl: 'http://utax.montanab.com/apptemplate/photos/{project.id}'
 })
 export class PhotosPage {
 	public user_id: string;

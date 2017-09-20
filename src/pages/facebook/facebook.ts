@@ -15,7 +15,7 @@ export class FacebookPage {
 
   constructor(public navCtrl: NavController, public http: Http) {
 	  
-	var projects = this.http.get('https://utax.montanab.com/account/project/facebook_url/12');
+	var projects = this.http.get('https://utax.montanab.com/account/project/facebook_url/{project.id}');
 			projects
 				.map(res => res.json())
 				.subscribe(data => {

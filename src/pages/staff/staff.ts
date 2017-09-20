@@ -8,12 +8,12 @@ import 'rxjs/add/operator/toPromise';
 
 @Component({
   selector: 'page-staff',
-  templateUrl: 'http://utax.montanab.com/apptemplate/staff/12'
+  templateUrl: 'http://utax.montanab.com/apptemplate/staff/{project.id}'
 })
 export class StaffPage {
   staff_items = [];
   constructor(public navCtrl: NavController, public http: Http) {
-		var staff = this.http.get('http://utax.montanab.com/account/project/appstaff/12');
+		var staff = this.http.get('http://utax.montanab.com/account/project/appstaff/{project.id}');
 		staff
 			.map(res => res.json())
 			.subscribe(data => {
