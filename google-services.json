@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "284132922695",
+    "firebase_url": "https://metik-marketing.firebaseio.com",
+    "project_id": "metik-marketing",
+    "storage_bucket": "metik-marketing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284132922695:android:1711986462c6583f",
+        "android_client_info": {
+          "package_name": "com.montanab.taxmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284132922695-8glth3m1gqft2ipb2l8jtvhmr5bu9d49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxt5oz8k5olFxBjw-nrktiZc2ElIzSCW4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
