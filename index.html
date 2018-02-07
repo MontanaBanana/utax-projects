@@ -27,14 +27,47 @@
   </script>-->
 
   <link href="build/main.css" rel="stylesheet">
+
   <script type="text/javascript">
-    window.onerror = function(msg, url, linenumber) {
-      alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
-      return true;
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        //setTimeout(document.addEventListener("deviceready", onDeviceReady, false), 10000);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Now safe to use device APIs
+	alert('calling onDeviceReady');
+        window.FirebasePlugin.grantPermission();
+        window.FirebasePlugin.onTokenRefresh(function(token) {
+            alert('success');
+            alert(token);
+        }, function(error) {
+            alert('error');
+            alert(error);
+        });
+        window.FirebasePlugin.hasPermission(function(data){
+          console.log(data.isEnabled);
+	  alert('hasPermission');
+	  alert(data.isEnabled);
+        });
+	window.FirebasePlugin.getToken(function(token) {
+	    // save this server-side and use it to push notifications to this device
+	    alert('getting token');
+	    alert(token);
+	}, function(error) {
+	    alert('couldnt get token');
+	    alert(error);
+	});
     }
   </script>
+
+
+
 </head>
-<body>
+<body onload="onLoad()"><script src="build/vendor.js"></script>
 
   <!-- Ionic's root component and where the app will load -->
   <ion-app></ion-app>
@@ -42,7 +75,7 @@
   <!-- The polyfills js is generated during the build process -->
   <script src="build/polyfills.js"></script>
 
-  <script src="build/vendor.js"></script>
+  <!-- The bundle js is generated during the build process -->
   <script src="build/main.js"></script>
 
 </body>
