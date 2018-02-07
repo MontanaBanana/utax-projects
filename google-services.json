@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "999354294141",
+    "firebase_url": "https://taxmobileapp.firebaseio.com",
+    "project_id": "taxmobileapp",
+    "storage_bucket": "taxmobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999354294141:android:1711986462c6583f",
+        "android_client_info": {
+          "package_name": "com.montanab.taxmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999354294141-t0k320s9pk32o10jgl1iqsfcn99br788.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4IM66QHlKaJj9lpgBzTbY3Ikz4d-cvp4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
