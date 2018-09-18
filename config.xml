@@ -24,6 +24,7 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
+    <preference name="android-build-tool" value="ant" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
