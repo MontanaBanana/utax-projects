@@ -24,6 +24,13 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
+    <config-file platform="ios" target="*-Info.plist" parent="NSHealthShareUsageDescription" mode="replace">
+            <string>App would like to access some of your device data.</string>
+    </config-file>
+
+    <config-file platform="ios" target="*-Info.plist" parent="NSHealthUpdateUsageDescription" mode="replace">
+            <string>App would like to update some of your device data.</string>
+    </config-file>
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
